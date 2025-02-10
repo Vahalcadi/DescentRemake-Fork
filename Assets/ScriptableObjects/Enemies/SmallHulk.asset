@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07fa6c1a981d1b4ba5253543789a0a0, type: 3}
+  m_Name: SmallHulk
+  m_EditorClassIdentifier: 
+  enemyType: 2
+  maxHp: 71
+  points: 500
+  speed: 3.4
+  turningSpeed: 2
+  bulletPrefab: {fileID: 2082609033010531916, guid: 7aea2b41774389349a62513aa123f1bf,
+    type: 3}
+  cooldownBetweenShots: 2.1
+  firesAlternatively: 0
+  currentSpeed: 0

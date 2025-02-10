@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &976279359484932160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7515788223147407003}
+  - component: {fileID: 7000463870893473688}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7515788223147407003
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976279359484932160}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17.902328, y: 9.113079, z: -1.8778224}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7000463870893473688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976279359484932160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72b915f6e0a4f6346b4ee0cd7b0e27d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vulkan: {fileID: 11400000, guid: f683f998f2b9ef44e80d8476ce8b4ebf, type: 2}
+  homingMissile: {fileID: 11400000, guid: 082e1d5e615f62745a6daa7c1579f5f3, type: 2}
+  concussionMissile: {fileID: 11400000, guid: 8bf30795b52a4ca4689bb4eb715cc261, type: 2}
+  hostage: {fileID: 11400000, guid: fe58cfe2a6900c443a4420ed124cee36, type: 2}
+  vulkanPrefab: {fileID: 6857849978265693986, guid: 78b65584260d0a34aa08c00f215e1f4d,
+    type: 3}
+  homingMissileX4Prefab: {fileID: 4385827072786359665, guid: 8a5c43065f795c843951f1ba21913d06,
+    type: 3}
+  homingMissilePrefab: {fileID: 4011296779378181585, guid: a189fd81dfa28664cb50747251057ab3,
+    type: 3}
+  concussionMissileX4Prefab: {fileID: 6867812563581310917, guid: 398b26d61029d454fbdb2a8148f495ba,
+    type: 3}
+  concussionMissilePrefab: {fileID: 5027963067465675954, guid: a74c370a9ea67fb4b88be13ca45df26d,
+    type: 3}
+  respawnPoint: {fileID: 0}
+  lives: 2
